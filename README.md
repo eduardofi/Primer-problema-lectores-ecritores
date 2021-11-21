@@ -1,4 +1,4 @@
-# Primer problema lectores-escritores
+# Primer problema de lectores-escritores
 
 ## Objetivo
 
