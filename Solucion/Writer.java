@@ -6,8 +6,10 @@
  */
 
 public class Writer implements Runnable{
+
   private ReadWriteLock db;
   int writerNum;
+  
   public Writer(int writercount, ReadWriteLock db) {
     this.db = db;
     this.writerNum = writercount;
