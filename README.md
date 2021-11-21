@@ -10,4 +10,4 @@ El Alumno realizará implementaciones de la sincronización de procesos a travé
 
 ## Autores
 
-- [jrbeduardo](https://github.com/jrbeduardo/)
+- [eduardofi](https://github.com/eduardofi/)
