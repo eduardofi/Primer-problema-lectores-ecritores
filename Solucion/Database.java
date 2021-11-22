@@ -60,7 +60,7 @@ public class Database implements ReadWriteLock{
     }
     /**
     * Una vez que no haya lectores ni escritores,
-    * este lector indica que está escribiendo en la base de datos.
+    * este escritor indica que está escribiendo en la base de datos.
     */
     System.out.println("escritor " + writerNum + " está escribiendo.");
     dbWriting = true;
