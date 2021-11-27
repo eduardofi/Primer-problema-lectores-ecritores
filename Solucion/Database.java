@@ -43,7 +43,8 @@ public class Database implements ReadWriteLock{
     if (readerCount == 0)
       notify();
     System.out.println("Lector " + readerNum 
-      + " ha terminado de leer. Lectores  Activos = " + readerCount);
+      + " ha terminado de leer. Lectores  Activos = " 
+      + readerCount);
   } 
 
   public synchronized void acquireWriteLock(int writerNum) {
@@ -62,7 +63,8 @@ public class Database implements ReadWriteLock{
     * Una vez que no haya lectores ni escritores,
     * este escritor indica que está escribiendo en la base de datos.
     */
-    System.out.println("escritor " + writerNum + " está escribiendo.");
+    System.out.println("escritor " + writerNum 
+      + " está escribiendo.");
     dbWriting = true;
   }
   

@@ -12,7 +12,7 @@ public class Factory
 
    public static void main(String args[])
    {
-      ReadWriteLock server = new Database();
+      ReadWriteLock server = new DataBaseSemaphore();
 
       Thread[] readerArray = new Thread[NUM_OF_READERS];
       Thread[] writerArray = new Thread[NUM_OF_WRITERS];
